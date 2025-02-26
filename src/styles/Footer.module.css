@@ -1,0 +1,76 @@
+.footer {
+    display: flex;
+    background: rgb(24 30 40);
+    color: white;
+    justify-content: column;
+    padding: 20px;
+    align-items: start;
+}
+
+.footer a:visited {
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 120px; 
+    height: auto;
+}
+
+.navLinks li {
+    display: inline;
+}
+
+.navGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #1da1f2;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 30px;
+    margin-top: 10px;
+}
+
+.footer div a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer div a:hover {
+    text-decoration: underline;
+}
